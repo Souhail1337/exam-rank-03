@@ -20,7 +20,7 @@ typedef struct draw
 }Draw;
 int errr(FILE *fd, int err)
 {
-    if (err == 2 && (err = 1))
+    if (err == 2)
         write(1,"operation",6);
     if(err == 1)
         write(1,"arguments",6);

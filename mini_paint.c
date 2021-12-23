@@ -20,7 +20,7 @@ typedef struct draw
 
 int error_msg(FILE *fd, int err)
 {
-    if (err == 2 &&(err == 1))
+    if (err == 2)
         write(1,"Error: Operation file corrupted\n", 32);
     else if (err == 1)
         write(1, "Error: argument\n",16);
